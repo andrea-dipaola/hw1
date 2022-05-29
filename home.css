@@ -1,0 +1,230 @@
+header #text{
+    max-width: 780px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    z-index: 1;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://gdsit.cdn-immedia.net/2015/01/Pizza-J.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#overlay{
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+#links {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links a{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#links a:hover{
+    color: black;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+article #profile{
+    z-index: 1;
+    margin-top: -50px;
+    text-align: center;
+}
+
+#profile p{
+    margin: 0;
+    font-size: 20px ;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+article img{
+    height: 100px;
+}
+
+#menu{
+    display: none;
+}
+
+#menu div{
+    width: 25px;
+    height: 3px;
+    background-color: tomato;
+    margin: 5px 0;
+}
+
+#reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;       
+    background-color: #f4ede5;
+}
+
+#reviews h1{
+    width: 66.67%;
+    font-size: 40px;
+    background-color: white;
+    border: 3px solid #f4ede5;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h1 p{
+    color: tomato;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+h1 div{
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+#reviews h2{
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+    margin-top: -30px;
+}
+
+#reviews span{  
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+#reviews h3{
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.hidden_text{
+    display: none;
+}
+
+
+#podcast_value{
+    background-color: #f4ede5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#podcast, #ricetta{
+    cursor: pointer;
+}
+
+#podcast_value .pod{
+    display: flex;
+}
+
+#podcast_value span{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+#podcast_value img{
+    width: 250px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+#podcast_value img:hover{
+    border: 5px solid tomato;
+}
+
+#form_ricetta{
+    margin-left: 67%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+
+#ricetta_value{
+    background-color: #f4ede5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ricetta_value .ric{
+    display: flex;
+    flex-direction: column;
+}
+
+#ricetta_value span{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+#ricetta_value img{
+    margin-bottom: 20px;
+}
+
+#ricetta_value p{
+    max-width: 300px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    #links{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}

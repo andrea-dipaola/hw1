@@ -1,0 +1,71 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f4ede5;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover, input[type=submit]:hover{
+    color: black;
+    cursor: pointer;
+}
+
+a, input[type=submit]{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#newrecensione h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    margin-top: 20px;  
+    
+}
+
+.error{
+    border: 2px solid red;
+}
+
+span{
+    display: block;
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+
+
+ 
